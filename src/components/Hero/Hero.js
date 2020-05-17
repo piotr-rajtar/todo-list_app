@@ -5,12 +5,13 @@ import PropTypes from 'prop-types';
 const Hero = props => (
     <header className={styles.component}>
         <h2 className={styles.title}>{props.titleText}</h2>
-        <img src="/src/components/Hero/space.png" alt="Space logo" className={styles.image} />
+        <img src={props.imgsrc} alt="Space logo" className={styles.image} />
     </header>
 );
 
 Hero.propTypes = {
     titleText: PropTypes.node.isRequired,
+    imgsrc: PropTypes.string.isRequired,
 }
 
 

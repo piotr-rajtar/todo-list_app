@@ -4,6 +4,15 @@ import Hero from '../Hero/Hero';
 import PropTypes from 'prop-types';
 
 class List extends React.Component {
+    static propTypes = {
+        title: PropTypes.node.isRequired,
+        children: PropTypes.node,
+    }
+
+    static defaultProps = {
+        children: <p>I can do this all day!</p>,
+    }
+
     render() {
         return  (
             <section className={styles.component}>

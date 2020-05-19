@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 import Creator from '../Creator/Creator';
 import {settings} from '../../data/dataStore';
+import Icon from '../Icon/Icon';
 
 class Column extends React.Component {
     state = {
@@ -32,6 +33,9 @@ class Column extends React.Component {
         return (
             <section className={styles.component}>
                 <h3 className={styles.title}>
+                    <span className={styles.icon}>
+                        <Icon name={this.props.icon} />
+                    </span>
                     {this.props.title}
                 </h3>
                 <div>

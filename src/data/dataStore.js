@@ -12,6 +12,12 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    headerLogo: 'rocket',
+    headerPage1: 'Home',
+    headerPage2: 'Info',
+    headerPage3: 'FAQ',
+  },
 };
 
 export const pageContents = {
@@ -140,6 +146,25 @@ const cards = [
     title: 'Skyrim',
   },
 ];
+
+export const infoData = {
+  title: 'INFO',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  header: 'Info',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
+
+export const faqData = {
+  title: 'FAQ',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  header: 'Frequently asked questions',
+  Question1: 'Lorem ipsum?',
+  Answer1: 'Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+  Question2: 'Incididunt ut labore et dolore magna aliqua?',
+  Answer2: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  Question3: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur?',
+  Answer3: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
 
 const initialStoreData = {
   app: {...pageContents},

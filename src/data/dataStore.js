@@ -85,6 +85,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Magical place to <sup>visit!</sup>',
+    description: 'Interesting place i want to visit!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Boring stuff to<sup>ticked!</sup>',
+    description: 'Rest of boring stuff that just needs to be ticked!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
 ];
 
 const columns = [
@@ -164,6 +176,11 @@ export const faqData = {
   Answer2: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   Question3: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur?',
   Answer3: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
+
+export const searchResultsData = {
+  title: 'Search results',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 const initialStoreData = {

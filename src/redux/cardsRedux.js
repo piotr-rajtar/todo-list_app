@@ -1,9 +1,13 @@
 import shortid from 'shortid';
 
 // selectors
-export const getCardsForColumn = ({cards, searchString}, columnId) => 
+export const getCardsForColumn = ({cards}, columnId) => 
   cards.filter(card =>
-    card.columnId == columnId && 
+    card.columnId == columnId
+  );
+
+export const getCardsFromAllLists = ({cards}, searchString) =>
+  cards.filter(card =>
     new RegExp(searchString, 'i').test(card.title)
   );
 
